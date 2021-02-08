@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CATÁLOGO DE AÇÃO</title>
+    <link rel="stylesheet" href="/Clone-Netflix/style/main.css">
+    <link rel="stylesheet" href="/Clone-Netflix/style/main-catalogo.css">
+    <!-- css owl -->
+    <link rel="stylesheet" href="/Clone-Netflix/style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="/Clone-Netflix/style/owl/owl.theme.default.min.css">
+    <link rel="stylesheet" href="/Clone-Netflix/Aula - DIO/css/responsive.css">
+    <style>
+        .filme-principal {
+            font-size: 16px;
+            background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)100%), url('/Clone-Netflix/tela-acao/style/img/img-s/n3MdduiFb1BZUnE9T172Yo3lNxC.jpg');
+
+            height: 400px;
+            background-size: cover;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h2 class="logo">CATÁLOGO DE SÉRIES AÇÃO</h2>
+            <nav>
+                <a href="/Clone-Netflix/index.html">Inicio</a>
+                <a href="/Clone-Netflix/tela-acao/tela-acao.html">Filmes</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="filme-principal">
+            <div class="container">
+                <h3 class="titulo">Cobra Kai (2018)</h3>
+                <p class="descricao">
+                    Esta sequência de Karate Kid pega 30 anos depois dos eventos do All Valley Karate Tournament de 1984 e 
+                    encontra Johnny Lawrence em busca de redenção reabrindo o infame dojo de karate Cobra Kai . 
+                    Isso reacende sua antiga rivalidade com o bem-sucedido Daniel LaRusso, que vem trabalhado para 
+                    manter o equilíbrio em sua vida sem o seu mentor Miyagi.
+                </p>
+                <div class="botoes">
+                    <a target="_blank" href="https://www.youtube.com/watch?v=B9U8OgTGDSk">
+                        <button role="button" class="botao">
+                            <i class="fas fa-play"></i>
+                            ASSISTIR TRAILER
+                        </button></a>
+                    <button role="button" class="botao" onclick="clicou()">
+                        <i class="fas fa-info-circle"></i>
+                        MAIS INFORMAÇÕES
+                    </button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <div class="carrosel-catalogo">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <a target="_blank" href="https://www.youtube.com/watch?v=eW7Twd85m2g"><img class="box-filme"
+                        src="style/img/img-s/mini-manda.jpg" alt=""></a>
+                <a target="_blank" href="https://www.youtube.com/watch?v=eW7Twd85m2g"><button class="botao"><i
+                            class="far fa-hand-point-right"></i>ASSISTIR A TRAILER</button></a>
+            </div>
+            <div class="item">
+                <a target="_blank" href="https://www.youtube.com/watch?v=dV6p83HRk4o"><img class="box-filme"
+                        src="style/img/img-s/mini-vikin.jpg" alt=""></a>
+                <a target="_blank" href="https://www.youtube.com/watch?v=dV6p83HRk4o"><button class="botao"><i
+                            class="far fa-hand-point-right"></i>ASSISTIR A TRAILER</button></a>
+            </div>
+            <div class="item">
+                <a target="_blank" href="https://www.youtube.com/watch?v=rlR4PJn8b8I"><img class="box-filme"
+                        src="style/img/img-s/mini-game.jpg" alt=""></a>
+                <a target="_blank" href="https://www.youtube.com/watch?v=rlR4PJn8b8I"><button class="botao"><i
+                            class="far fa-hand-point-right"></i>ASSISTIR A TRAILER</button></a>
+            </div>
+            <div class="item">
+                <a target="_blank" href="https://www.youtube.com/watch?v=5_4SW8HHfUs"><img class="box-filme"
+                        src="style/img/img-s/mini-umbre.jpg" alt=""></a>
+                <a target="_blank" href="https://www.youtube.com/watch?v=5_4SW8HHfUs"><button class="botao"><i
+                            class="far fa-hand-point-right"></i>ASSISTIR A TRAILER</button></a>
+            </div>
+            <div class="item">
+                <a target="_blank" href="https://www.youtube.com/watch?v=BxmSk_pv8tE"><img class="box-filme"
+                        src="style/img/img-s/mini-boys.jpg" alt=""></a>
+                <a target="_blank" href="https://www.youtube.com/watch?v=BxmSk_pv8tE"><button class="botao"><i
+                            class="far fa-hand-point-right"></i>ASSISTIR A TRAILER</button></a>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function clicou(){
+		alert("Esse filme possui 81% da aprovação no site themoviedb");
+        alert("Hayden Schlossberg: Criação");
+        alert("Josh Heald: Criação");
+        alert("John Hurwitz: Criação");
+        alert("Ralph Macchio: Daniel LaRusso");
+        alert("William Zabka: Johnny Lawrence");
+        alert("Xolo Mariduena: Miguel Diaz");
+        alert("Tanner Buchanan: Robby Keene");
+        alert("Mary Mouser: Samantha LaRusso");
+        // alert("Orçamento:");
+	}
+    </script>
+
+    <!-- font awesome para icones -->
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
+    <!-- owl carousel script -->
+    <script src="/Clone-Netflix/js/owl/jquery.min.js"></script>
+    <script src="/Clone-Netflix/js/owl/owl.carousel.min.js"></script>
+    <script src="/Clone-Netflix/js/setup.js"></script>
+</body>
+
+</html>

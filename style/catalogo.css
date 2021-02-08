@@ -1,0 +1,38 @@
+.carrosel-catalogo{
+    margin-top: 10%;
+}
+
+button {
+    font-weight: bold;
+    margin-top: -10px;
+
+    background-color: rgba(0, 0, 0, .50);
+    border: none;
+    color: white;
+
+    padding: 15px 50px;
+    font-size: 15px;
+
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+p{
+    background-color: rgba(0, 0, 0, .50); 
+    margin-top: 5px;
+    font-size: 12.3px;
+}
+
+i{
+    margin-right: 10px;
+}
+
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.container {
+    margin-left: 20px;
+}

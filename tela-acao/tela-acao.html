@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CATÁLOGO DE AÇÃO</title>
+    <link rel="stylesheet" href="/Clone-Netflix/style/main.css">
+    <link rel="stylesheet" href="/Clone-Netflix/style/main-catalogo.css">
+    <!-- css owl -->
+    <link rel="stylesheet" href="/Clone-Netflix/style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="/Clone-Netflix/style/owl/owl.theme.default.min.css">
+    <link rel="stylesheet" href="/Clone-Netflix/Aula - DIO/css/responsive.css">
+    <style>
+        .filme-principal {
+            font-size: 16px;
+            background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)100%), url('/Clone-Netflix/tela-acao/style/img/batman.jpg');
+
+            height: 400px;
+            background-size: cover;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h2 class="logo">CATÁLOGO DE AÇÃO</h2>
+            <nav>
+                <a href="/Clone-Netflix/index.html">Inicio</a>
+                <a href="/Clone-Netflix/tela-acao/tela-acao-s.html">Séries</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="filme-principal">
+            <div class="container">
+                <h3 class="titulo">Batman: O Cavaleiro das Trevas (2008)</h3>
+                <p class="descricao">
+                    Após dois anos desde o surgimento do Batman, os criminosos de Gotham City têm muito o que temer.
+                    Com a ajuda do tenente James Gordon e do promotor público Harvey Dent, Batman luta contra o crime
+                    organizado.
+                    Acuados com o combate, os chefes do crime aceitam a proposta feita pelo Coringa e o contratam para
+                    combater o Homem-Morcego.
+                </p>
+                <div class="botoes">
+                    <a target="_blank" href="https://www.youtube.com/watch?v=a-PVBsmiB0Y">
+                        <button role="button" class="botao">
+                            <i class="fas fa-play"></i>
+                            ASSISTIR TRAILER
+                        </button></a>
+                    <button role="button" class="botao" onclick="clicou()">
+                        <i class="fas fa-info-circle"></i>
+                        MAIS INFORMAÇÕES
+                    </button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <div class="carrosel-catalogo">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <a target="_blank" href="https://www.youtube.com/watch?v=GbR_udDNldI"><img class="box-filme"
+                        src="style/img/mini-senhor.jpg" alt=""></a>
+                <a target="_blank" href="https://www.youtube.com/watch?v=GbR_udDNldI"><button class="botao"><i
+                            class="far fa-hand-point-right"></i>ASSISTIR A TRAILER</button></a>
+            </div>
+            <div class="item">
+                <a target="_blank" href="https://www.youtube.com/watch?v=OV4U3UbASD0"><img class="box-filme"
+                        src="style/img/mini-hero.jpg" alt=""></a>
+                <a target="_blank" href="https://www.youtube.com/watch?v=OV4U3UbASD0"><button class="botao"><i
+                            class="far fa-hand-point-right"></i>ASSISTIR A TRAILER</button></a>
+            </div>
+            <div class="item">
+                <a target="_blank" href="https://www.youtube.com/watch?v=wJ1TOratCTo"><img class="box-filme"
+                        src="style/img/mini-sete.jpg" alt=""></a>
+                <a target="_blank" href="https://www.youtube.com/watch?v=wJ1TOratCTo"><button class="botao"><i
+                            class="far fa-hand-point-right"></i>ASSISTIR A TRAILER</button></a>
+            </div>
+            <div class="item">
+                <a target="_blank" href="https://www.youtube.com/watch?v=eadc_HziRes"><img class="box-filme"
+                        src="style/img/mini-steve.jpg" alt=""></a>
+                <a target="_blank" href="https://www.youtube.com/watch?v=eadc_HziRes"><button class="botao"><i
+                            class="far fa-hand-point-right"></i>ASSISTIR A TRAILER</button></a>
+            </div>
+            <div class="item">
+                <a target="_blank" href="https://www.youtube.com/watch?v=8wgQ8GUl-js"><img class="box-filme"
+                        src="style/img/mini-mortal.jpg" alt=""></a>
+                <a target="_blank" href="https://www.youtube.com/watch?v=8wgQ8GUl-js"><button class="botao"><i
+                            class="far fa-hand-point-right"></i>ASSISTIR A TRAILER</button></a>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function clicou(){
+		alert("Esse filme possui 85% da aprovação no site themoviedb");
+        alert("Christopher Nolan: Director, Screenplay, Story");
+        alert("David S. Goyer: Story");
+        alert("Christian Bale: Bruce Wayne / Batman");
+        alert("Heath Ledger: Joker");
+        alert("Michael Caine: Alfred Pennyworth");
+        alert("Gary Oldman: Commissioner James Gordon");
+        alert("Aaron Eckhart: Harvey Dent / Two-Face");
+        alert("Maggie Gyllenhaal: Rachel Dawes");
+        alert("Orçamento: $185,000,000.00");
+	}
+    </script>
+
+    <!-- font awesome para icones -->
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
+    <!-- owl carousel script -->
+    <script src="/Clone-Netflix/js/owl/jquery.min.js"></script>
+    <script src="/Clone-Netflix/js/owl/owl.carousel.min.js"></script>
+    <script src="/Clone-Netflix/js/setup.js"></script>
+</body>
+
+</html>
