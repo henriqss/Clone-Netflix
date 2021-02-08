@@ -1,12 +1,33 @@
 # Clone Front Netflix
 ## Projeto DIO com algumas implementações
 
-### Proposta DIO:
+### Proposta DIO
+
 - Criar interface do site principal de streaming mundial utilizando tecnologias simples como
 HTML5, CSS3 e JavaScript. Nesse projeto você aprenderá: como estruturar um layout, técnicas de
 CSS3 com containers e variáveis, como posicionar os elementos com Flexbox e como utilizar
 plugins Jquery a favor de sua aplicação.
 
+## Implemetações
+
+- Foram adicionados algumas paginas:
+
+* tela de Inicio
+![Tela de Inicio](https://github.com/henriqss/Clone-Netflix/blob/main/mid-sistema/tela%20inicio.png)
+* tela de Produção
+![Tela de Produção](https://github.com/henriqss/Clone-Netflix/blob/main/mid-sistema/em%20produ%C3%A7%C3%A3o.png)
+* catalogo de ação
+![catalogo de ação](https://github.com/henriqss/Clone-Netflix/blob/main/mid-sistema/catalogo%20de%20a%C3%A7%C3%A3o.png)
+* catalogo de series de ação
+![catalogo de series de ação](https://github.com/henriqss/Clone-Netflix/blob/main/mid-sistema/catalogo%20de%20series%20de%20a%C3%A7%C3%A3o.png)
+
+- Tambem foram adicionadas algumas funções aos botões:
+
+* assitir trailer - mostra os trailer
+* mais informações - exibe um span com informações 
+* inicio - leva para tela inicial
+* series - leva para tela de series
+* filmes - lava para tela de filmes
 
 ### Pré-requisitos
 
